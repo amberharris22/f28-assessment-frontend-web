@@ -33,7 +33,7 @@ input {
 	display: block;
 }
 
-img {
+#rubber-duck {
 	max-width: 300px;
 }
 
@@ -79,4 +79,16 @@ h3{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+#neighImg{
+	width: 100%;
+	height: 175px;
+	object-fit: cover;
+}
+.local{
+	padding: 10px;
+	background-color: lightgreen;
+	display: block;
+	margin: 10px 0;
 }

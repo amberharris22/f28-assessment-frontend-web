@@ -17,8 +17,9 @@ const myRitual = (event) => {
 }
 
 const myInterests = (event) => {
-    alert("I know this doesn't look great, but I had to use flex somewhere ;)")
-}
+    event.preventDefault()
+        alert("I know this doesn't look great, but I had to use flex somewhere")
+    }
 
 color.addEventListener('click', myColor)
 place.addEventListener('click', myPlace)
