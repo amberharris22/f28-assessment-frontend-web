@@ -1,0 +1,82 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.comments{
+	font-weight: 700;
+	color: purple
+}
+#love{
+	background-color: lightpink;
+	margin: 10px 0px;	
+}
+h3{
+	color: teal;
+	font-family: magneto;
+	font-size: 24pt;
+}
+
+.interests{
+	display: flex;
+	align-items:center;
+	flex-direction: column-reverse;
+	border: 2px white dotted;
+}
+
+.favorite{
+	padding: 10px;
+	background-color: yellow;
+	border: 3px solid coral;
+	border-radius: 12px;
+	margin: 5px;
+	width: 30%;
+
+}
+
+.favorite:hover{
+	background-color: green;
+	border: 3px solid lightgreen;
+	color: white;
+	transition: .5s;
+	
+}
+.buttons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
